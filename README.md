@@ -1,5 +1,7 @@
 # hw1
 demo website homework assignment 1
+https://kashane1.github.io/hw1/
+
 
 Writting my out my first read me
 
