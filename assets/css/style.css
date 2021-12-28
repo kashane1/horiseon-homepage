@@ -1,0 +1,134 @@
+/*using a universal tag for all the common attributes*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*this provides a background color for all of the body of the webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*used <header> tags instead of more classes to clean up the .html file some more*/
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*specific attributes for the h1 line in the header*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*this adds a unique color to the letters "seo" in the main logo at the top of the webpage*/
+#seo {
+    color: #d9dcd6;
+}
+
+/*this div contains the links on the top of the page*/
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/*this is further edits to the specific links inside the header div*/
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/**/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/**/
+p {
+    font-size: 16px;
+}
+
+/**/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    color:transparent; overflow:hidden; /* hides the alt text i used for the background image  */
+}
+
+/**/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/**/
+.content img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/*combined float-left to the parent .content img tag, making it the default. than leaving float-right*/
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/**/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/**/
+.content .information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*all attributes for benefits div*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*specific attributes for h3 within benefits*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*attributes for the images within the benefits div*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*used footer tags instead of classes to clean up the .html file some more*/
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
