@@ -1,6 +1,5 @@
 hw1 Demo Website:
 =======
-
 [Link to Horiseon Homepage](https://kashane1.github.io/hw1/)
 -----------
 Following the link above will bring you to a webpage that I was given as a base layer of coding. I was assigned to improve the accessability of the website, increase the functionality, and correct the syntax. The changes I made will optimize the website for search engines.
@@ -16,7 +15,6 @@ Requirements:
 5. Heading attributes fall in sequential order
 6. Title element is concise and descriptive
 
-
 -----------
 Process:
 -----------
@@ -29,7 +27,6 @@ Extra:
 -----------
 1. I added a favicon next to the title on the browser page/tab.
 2. I tried really hard to get an alt tag for the background image and the best solution I found was to add text in the div, that then gets hidden if the image is loaded. 
-
 
 -----------
 ```
