@@ -1,6 +1,6 @@
 hw1 Demo Website:
 =======
-[Link to Horiseon Homepage](https://kashane1.github.io/hw1/)
+[Link to Horiseon Homepage](https://kashane1.github.io/horiseon-homepage/)
 -----------
 Following the link above will bring you to a webpage that I was given as a base layer of coding. I was assigned to improve the accessability of the website, increase the functionality, and correct the syntax. The changes I made will optimize the website for search engines.
 
