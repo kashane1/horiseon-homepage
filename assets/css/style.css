@@ -30,7 +30,7 @@ header h1 #seo {
 }
 
 /* this div, inside the header section, contains the links on the top of the page */
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
