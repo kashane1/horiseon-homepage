@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
 }
 
 /* provides a background color for all of the body of the webpage */
@@ -15,7 +16,6 @@ body {
 header {
     padding: 20px;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 /* specific attributes for the h1 line in the header */
@@ -29,7 +29,7 @@ header h1 #seo {
     color: #d9dcd6;
 }
 
-/* this div, inside the header section, contains the links on the top of the page */
+/* this element, inside the header section, contains the links on the top of the page */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,16 +41,14 @@ header nav {
 header ul li {
     display: inline-block;
     margin-left: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* adds color and removes the hyperliink decoration to the a tags under header */
 header a {
-    color: #ffffff;
     text-decoration: none;
 }
 
-/* this section contains the background image */
+/* this .hero container contains the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,16 +59,15 @@ header a {
     color:transparent; overflow:hidden; /* hides the alt text used for the background image */
 }
 
-/* the next large section with main information under the background picture */
-.content {
+/* labeled the next element 'section' with the main information under the hjero image */
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* for the images inside the content element */
-.content img {
+section img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
@@ -79,40 +76,37 @@ header a {
 /* moved float-left to the parent ".content img" selector, making it the default. then using float-right when I want to move an element to the right of the parent element */
 #float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 /* attributes for the elements within the content element */
-.content .information {
+section article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
-/* increasing fontsize on h2 within .content */
-.content h2 {
+/* increasing fontsize on h2 within section tag */
+section h2 {
     font-size: 36px;
 }
 
-/* all attributes for benefits div */
-.benefits {
+/* all attributes for benefits within the aside tag */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
-    color: #ffffff;
     text-align: center;
 }
 
 /* attributes for the images within the benefits div */
-.benefits img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -123,4 +117,9 @@ footer {
     padding: 30px;
     clear: both;
     text-align: center;
+}
+
+/* adjusting text color in the footer */
+footer h4, footer p {
+    color: black;
 }
